@@ -1,4 +1,3 @@
-/**
  *  Tado Connect
  *
  *  Copyright 2016 Stuart Buchanan
@@ -1247,7 +1246,7 @@ private parseCapabilitiesResponse(resp,childDevice) {
     {
       log.debug("Something was created/updated")
     }
-
+}
 private parseweatherResponse(resp,childDevice) {
     log.debug("Executing parseweatherResponse: "+resp.data)
     log.debug("Output status: "+resp.status)
